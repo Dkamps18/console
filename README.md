@@ -1,4 +1,5 @@
 # Console
+[![Go Reference](https://pkg.go.dev/badge/github.com/Dkamps18/console.svg)](https://pkg.go.dev/github.com/Dkamps18/console)  
 Simple console logging package for Go
 
 ## Installation
