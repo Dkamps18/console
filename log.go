@@ -5,10 +5,10 @@ import (
 	"time"
 )
 
-var log func(a ...any) = longlog
+var logfunc func(a ...any) = longlog
 
 func Log(a ...any) {
-	log(a...)
+	logfunc(a...)
 }
 
 func longlog(a ...any) {

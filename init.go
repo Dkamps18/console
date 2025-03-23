@@ -2,10 +2,10 @@ package console
 
 func Init(short bool) {
 	if short {
-		log = shortlog
-		error = shorterror
+		logfunc = shortlog
+		errorfunc = shorterror
 	} else {
-		log = longlog
-		error = longerror
+		logfunc = longlog
+		errorfunc = longerror
 	}
 }

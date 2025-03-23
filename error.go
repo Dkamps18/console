@@ -6,10 +6,10 @@ import (
 	"time"
 )
 
-var error func(a ...any) = longerror
+var errorfunc func(a ...any) = longerror
 
 func Error(a ...any) {
-	error(a...)
+	errorfunc(a...)
 }
 
 func longerror(a ...any) {
